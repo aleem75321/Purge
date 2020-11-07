@@ -4,15 +4,15 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name='dokr',  
+    name='purge',  
     version='0.1',
     scripts=['dokr'] ,
-    author="Deepak Kumar",
-    author_email="deepak.kumar.iet@gmail.com",
-    description="A Docker and AWS utility package",
+    author="Abdul Aleem Qureshi",
+    author_email="aleem75321@gmail.com",
+    description="Delete temp file as per patthen",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/javatechy/dokr",
+    url="https://github.com/aleem75321/Purge.git",
     packages=setuptools.find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",
